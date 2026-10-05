@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme{
+  --color-primary:#02B290;
+  --color-secondary:#353535;
+}
+
+::-webkit-scrollbar{width:8px !important;height: 8px !important;}
+::-webkit-scrollbar-thumb{background: #02B290;border-radius:8px;}
+::-webkit-scrollbar-track{background: #fff;}
+
+body{background-color:#f1f1f1;}
+.container{width:96%;margin:auto;}
+
+.ReactCollapse--collapse{transition:height 500ms;}
+
+.btn-border-g{border:1px solid #02B290 !important;color:#02B290 !important;font-weight:600 !important;width:100% !important;box-sizing:border-box !important;}
+.btn-border-g:hover{color:#fff !important;background-color: #02B290;}
+
+.btn-g{background-color: #02B290 !important;border:1px solid #02B290 !important;color:#fff !important;font-weight:600 !important;box-sizing:border-box !important;padding:8px 20px !important;}
+.btn-g:hover{color:#fff !important;background-color: #333333 !important;}
+
+.MuiTableRow-root th{background-color:#f1f1f1;font-weight:600;padding:10px 15px !important;}
+.MuiTableRow-root th{@apply text-gray-700!}
+.MuiTableCell-root{padding:8px 12px !important;}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0;}
+input[type="number"]{-moz-appearance: textfield;}
+
+.MuiCheckbox-sizeSmall{padding:0px;}
